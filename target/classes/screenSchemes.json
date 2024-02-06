@@ -1,0 +1,39 @@
+[
+  {
+    "screenSchemeId": "10031",
+    "name": "Requirement Screen Scheme",
+    "description": "",
+    "defaultScreenId": "10035",
+    "createScreenId": ""
+  },
+  {
+    "screenSchemeId": "10033",
+    "name": "Change Request Screen Scheme",
+    "description": "",
+    "defaultScreenId": "10040",
+    "createScreenId": ""
+  },
+  {
+    "screenSchemeId": "10029",
+    "name": "Software Development Default Screen Scheme",
+    "description": "",
+    "defaultScreenId": "10034",
+    "createScreenId": ""
+  },
+  {
+    "screenSchemeId": "10030",
+    "name": "Software Development Bug Screen Scheme",
+    "description": "",
+    "defaultScreenId": "10039",
+    "createScreenId": "10037"
+  },
+  {
+    "screenSchemeId": "10032",
+    "name": "Test Case Screen Scheme",
+    "description": "",
+    "defaultScreenId": "10038",
+    "createScreenId": "10036"
+  }
+]
+
+

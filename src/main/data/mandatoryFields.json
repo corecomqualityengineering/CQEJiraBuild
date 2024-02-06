@@ -1,0 +1,78 @@
+[
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10133",
+    "description": "Requirement Source"
+  },
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10122",
+    "description": "Reference/Section"
+  },
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10138",
+    "description": "Process"
+  },
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10125",
+    "description": "Type"
+  },
+  {
+    "fieldConfigId": "10016",
+    "customFieldId": "customfield_10134",
+    "description": "Region"
+  },
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10134",
+    "description": "Process"
+  },
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10123",
+    "description": "Test Steps"
+  },
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10127",
+    "description": "Expected Results"
+  },
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10135",
+    "description": "Country"
+  },
+  {
+    "fieldConfigId": "10017",
+    "customFieldId": "customfield_10134",
+    "description": "Process"
+  },
+  {
+    "fieldConfigId": "10017",
+    "customFieldId": "customfield_10127",
+    "description": "Expected Results"
+  },
+  {
+    "fieldConfigId": "10017",
+    "customFieldId": "customfield_10121",
+    "description": "Steps to reproduce"
+  },
+  {
+    "fieldConfigId": "10015",
+    "customFieldId": "customfield_10121",
+    "description": "Country"
+  },
+  {
+    "fieldConfigId": "10016",
+    "customFieldId": "customfield_10121",
+    "description": "Region"
+  },
+  {
+    "fieldConfigId": "10016",
+    "customFieldId": "customfield_10114",
+    "description": "Environment"
+  }
+]
+

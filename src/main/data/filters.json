@@ -1,0 +1,134 @@
+[
+  {
+    "jql": "priority = High AND issuetype = \"Test Case\" AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY key ASC, created DESC",
+    "name": "All high priority test cases in current sprint"
+  },
+  {
+    "jql": "type = \"Test Case\" AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY STATUS ASC, created DESC",
+    "name": "All not passed or failed test cases in current sprint"
+  },
+  {
+    "jql": "issuetype = Defect AND status != Done",
+    "name": "All open defects (all sprints)"
+  },
+  {
+    "jql": "type = \"Defect\" AND status in (\"Fixing\", \"In Backlog\", \"In Test\", \"New\", \"Prioritised to Fix\", \"Release Candidate\", \"Under Review\") AND priority = Critical ORDER BY created DESC",
+    "name": "All open CRITICAL defects"
+  },
+  {
+    "jql": "issuetype = Defect AND status in (Fixing, \"In Backlog\", \"In Test\", New, \"Prioritised to Fix\", \"Release Candidate\", \"Under Review\") AND priority = Critical AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY created DESC",
+    "name": "All open CRITICAL defects - Current Sprint"
+  },
+  {
+    "jql": "issuetype = Defect AND status in (Fixing, \"In Backlog\", \"In Test\", New, \"Prioritised to Fix\", \"Release Candidate\", \"Under Review\") AND priority = Critical AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY created DESC",
+    "name": "All open defects (current sprint)"
+  },
+  {
+    "jql": "issuetype = \"Test Case\"  ORDER BY key ASC, created DESC",
+    "name": "All test cases"
+  },
+  {
+    "jql": "issuetype = \"Test Case\" AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY key ASC, created DESC",
+    "name": "All test cases in current sprint"
+  },
+  {
+    "jql": "issuetype = Defect order by created DESC",
+    "name": "Defects Only"
+  },
+  {
+    "jql": "issuetype = Defect AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY priority, Rank ASC",
+    "name": "Defects Only - current sprint"
+  },
+  {
+    "jql": "issuetype = Defect AND status != Done AND assignee in (membersOf(\"Ceridian-Team\")) ORDER BY Rank ASC",
+    "name": "Defects with Ceridian"
+  },
+  {
+    "jql": "issuetype = Defect AND status != Done AND assignee in (membersOf(\"Ceridian-Team\"))  AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY Rank ASC",
+    "name": "Defects with Ceridian - current sprint"
+  },
+  {
+    "jql": "issuetype = Defect AND status != Done AND assignee not in (membersOf(\"Ceridian-Team\")) ORDER BY Rank ASC",
+    "name": "Defects with client"
+  },
+  {
+    "jql": "issuetype = Defect AND status != Done AND assignee not in (membersOf(\"Ceridian-Team\")) AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY Rank ASC",
+    "name": "Defects with client - current sprint"
+  },
+  {
+    "jql": "issuetype = \"Test Case\" AND status not in (\"Pass\", \"Passed Testing\") ORDER BY Rank ASC",
+    "name": "Exclude passed"
+  },
+  {
+    "jql": "priority = Critical ORDER BY Rank ASC",
+    "name": "Highest Priority Items"
+  },
+  {
+    "jql": "assignee in (membersOf(\"Ceridian-Team\")) AND issuetype = \"Test Case\" order by created DESC",
+    "name": "Issues with Ceridian"
+  },
+  {
+    "jql": "assignee = currentUser()",
+    "name": "Only my issues"
+  },
+  {
+    "jql": "issuetype = Defect AND status in (Fixing, \"In Backlog\", \"In Test\", New, \"Prioritised to Fix\", \"Release Candidate\", \"Under Review\") AND priority = Critical  AND sprint in openSprints() AND sprint not in futureSprints() order by created DESC",
+    "name": "Open CRITICAL defects - current sprint"
+  },
+  {
+    "jql": "issuetype = Defect AND status in (Fixing, \"In Backlog\", \"In Test\", New, Rejected, \"Release Candidate\", \"Under Review\") order by created DESC",
+    "name": "Open Defects"
+  },
+  {
+    "jql": "issuetype = Defect AND status in (Fixing, \"In Backlog\", \"In Test\", New, Rejected, \"Release Candidate\", \"Under Review\") AND sprint in openSprints() AND sprint not in futureSprints() order by created DESC",
+    "name": "Open Defects - current sprint"
+  },
+  {
+    "jql": "issuetype = \"Test Case\" AND due <= \"0\" ORDER BY Rank ASC",
+    "name": "Overdue tests"
+  },
+  {
+    "jql": "updatedDate >= -1d",
+    "name": "Recently updated"
+  },
+  {
+    "jql": "issuetype = Requirement ORDER BY created DESC",
+    "name": "Requirements coverage status"
+  },
+  {
+    "jql": "issuetype = Requirement AND status = \"Passed Testing\" order by created DESC",
+    "name": "Requirements successfully tested"
+  },
+  {
+    "jql": "issuetype = Requirement AND status = \"Failed Testing\" order by priority DESC",
+    "name": "Requirements with failed tests"
+  },
+  {
+    "jql": "issuetype = Requirement AND status = \"No Test Coverage\" order by priority DESC",
+    "name": "Requirements with no test coverage"
+  },
+  {
+    "jql": "issuetype = Requirement AND status = \"Coverage Achieved\" order by created DESC",
+    "name": "Requirements with test coverage"
+  },
+  {
+    "jql": "issuetype = \"Test Case\" AND due <= 0d AND sprint in openSprints() AND sprint not in futureSprints() ORDER BY Rank ASC",
+    "name": "Tests due by today"
+  },
+  {
+    "jql": "issuetype = \"Test Case\" AND due <= 1d ORDER BY Rank ASC",
+    "name": "Tests due by tomorrow"
+  },
+  {
+    "jql": "issuetype = \"Test Case\" AND due <= 1w ORDER BY Rank ASC",
+    "name": "Tests due in the next week"
+  },
+  {
+    "jql": "issuetype = \"Test Case\" AND status != Pass AND assignee in (membersOf(\"Ceridian-Team\")) ORDER BY Rank ASC",
+    "name": "Tests with Ceridian"
+  },
+  {
+    "jql": "issuetype = \"Test Case\" AND status != Pass AND assignee in (membersOf(\"Client-Team\")) ORDER BY Rank ASC",
+    "name": "Tests with client"
+  }
+]

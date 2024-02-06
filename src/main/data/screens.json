@@ -1,0 +1,44 @@
+[
+  {
+    "screenId": 10037,
+    "screenName": "Create Bug Screen",
+    "description": "Create Bug"
+  },
+  {
+    "screenId": 10041,
+    "screenName": "Add Resolution Screen",
+    "description": "Add Resolution"
+  },
+  {
+    "screenId": 10036,
+    "screenName": "Create Test Case Screen",
+    "description": "Create Test Case"
+  },
+  {
+    "screenId": 10040,
+    "screenName": "Create CR Screen",
+    "description": "Create CR"
+  },
+  {
+    "screenId": 10035,
+    "screenName": "Requirement Screen",
+    "description": "Requirement"
+  },
+  {
+    "screenId": 10034,
+    "screenName": "Software Development Default Issue Screen",
+    "description": "Default Issue"
+  },
+  {
+    "screenId": 10039,
+    "screenName": "Edit Bug Screen",
+    "description": "Allows you to capture information related to bugs or undesired behaviour"
+  },
+  {
+    "screenId": 10038,
+    "screenName": "Run Test Case Screen",
+    "description": "Run Test Case Screen"
+  }
+]
+
+

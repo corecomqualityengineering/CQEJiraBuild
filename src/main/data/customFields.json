@@ -1,0 +1,107 @@
+[
+  {
+    "customFieldId": "customfield_10134",
+    "name": "Region",
+    "description": "Region"
+  },
+  {
+    "customFieldId": "customfield_10132",
+    "name": "Actual Result",
+    "description": "What was the result of executing this test case. If it matches the expected result then it is a PASS, if not then it is a FAIL."
+  },
+  {
+    "customFieldId": "customfield_10133",
+    "name": "Requirement Source",
+    "description": "Where does the requirement come from?"
+  },
+  {
+    "customFieldId": "customfield_10122",
+    "name": "Reference/Section",
+    "description": "Use this field to capture the source of the specific requirement which needs to be tested."
+  },
+  {
+    "customFieldId": "customfield_10138",
+    "name": "Process",
+    "description": "Process"
+  },
+  {
+    "customFieldId": "customfield_10125",
+    "name": "Type",
+    "description": "Requirement Type"
+  },
+  {
+    "customFieldId": "customfield_10136",
+    "name": "Dependent?",
+    "description": "Is this issue dependent on another?"
+  },
+  {
+    "customFieldId": "customfield_10140",
+    "name": "Version",
+    "description": "Give this issue a version number"
+  },
+  {
+    "customFieldId": "customfield_10143",
+    "name": "Reason For Requirement",
+    "description": "Reason For Requirement"
+  },
+  {
+    "customFieldId": "customfield_10141",
+    "name": "Current # Tests",
+    "description": "Current number of tests"
+  },
+  {
+    "customFieldId": "customfield_10142",
+    "name": "Estimated # Tests",
+    "description": "Estimated number of tests"
+  },
+  {
+    "customFieldId": "customfield_10120",
+    "name": "Pre-conditions",
+    "description": "What must be true in order to execute this test case."
+  },
+  {
+    "customFieldId": "customfield_10126",
+    "name": "Test Data Required",
+    "description": "What test data do we need to have in order to execute this test"
+  },
+  {
+    "customFieldId": "customfield_10123",
+    "name": "Test Steps",
+    "description": "What steps need to be executed for this test"
+  },
+  {
+    "customFieldId": "customfield_10127",
+    "name": "Expected Result",
+    "description": "The outcome of the test in order for it to PASS."
+  },
+  {
+    "customFieldId": "customfield_10128",
+    "name": "Test Information",
+    "description": "Test Information"
+  },
+  {
+    "customFieldId": "customfield_10124",
+    "name": "Test Case Version",
+    "description": "Assign a number to version this test case"
+  },
+  {
+    "customFieldId": "customfield_10135",
+    "name": "Country",
+    "description": "Country"
+  },
+  {
+    "customFieldId": "customfield_10121",
+    "name": "Steps to Reproduce",
+    "description": "Describe the events to reproduce the issue"
+  },
+  {
+    "customFieldId": "customfield_10145",
+    "name": "Likely Root Cause",
+    "description": "Likely Root Cause"
+  },
+  {
+    "customFieldId": "customfield_10146",
+    "name": "Defect Type",
+    "description": "Defect Type"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "gadgets" : [ {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:road-map-gadget/gadgets/roadmap-gadget.xml",
+    "title" : "Jira Road Map"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:favourite-filters-gadget/gadgets/favourite-filters-gadget.xml",
+    "title" : "Starred filters"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:assigned-to-me-gadget/gadgets/assigned-to-me-gadget.xml",
+    "title" : "Assigned to Me"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:in-progress-gadget/gadgets/in-progress-gadget.xml",
+    "title" : "Issues in progress"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:voted-gadget/gadgets/voted-gadget.xml",
+    "title" : "Voted Issues"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:watched-gadget/gadgets/watched-gadget.xml",
+    "title" : "Watched Issues"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:quicklinks-gadget/gadgets/quicklinks-gadget.xml",
+    "title" : "Quick links"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:filter-results-gadget/gadgets/filter-results-gadget.xml",
+    "title" : "Filter Results"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:stats-gadget/gadgets/stats-gadget.xml",
+    "title" : "Issue Statistics"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:two-dimensional-stats-gadget/gadgets/two-dimensional-stats-gadget.xml",
+    "title" : "Two Dimensional Filter Statistics"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:project-gadget/gadgets/project-gadget.xml",
+    "title" : "Projects"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:pie-chart-gadget/gadgets/piechart-gadget.xml",
+    "title" : "Pie Chart"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:heat-map-gadget/gadgets/heatmap-gadget.xml",
+    "title" : "Heat Map"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:resolution-time-gadget/gadgets/resolution-time-gadget.xml",
+    "title" : "Resolution Time"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:created-vs-resolved-issues-chart-gadget/gadgets/createdvsresolved-gadget.xml",
+    "title" : "Created vs Resolved Chart"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:average-age-chart-gadget/gadgets/average-age-gadget.xml",
+    "title" : "Average Age Chart"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:time-since-chart-gadget/gadgets/timesince-gadget.xml",
+    "title" : "Time Since Chart"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:recently-created-chart-gadget/gadgets/recently-created-gadget.xml",
+    "title" : "Recently Created Chart"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:labels-gadget/gadgets/labels-gadget.xml",
+    "title" : "Labels Gadget"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.ext.charting:timeinstatus-gadget/com/atlassian/jira/ext/charting/gadget/timeinstatus-gadget.xml",
+    "title" : "Average Time in Status"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.ext.charting:numberoftimesinstatus-gadget/com/atlassian/jira/ext/charting/gadget/numberoftimesinstatus-gadget.xml",
+    "title" : "Average Number of Times in Status"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.ext.charting:workloadpie-gadget/com/atlassian/jira/ext/charting/gadget/workloadpie-gadget.xml",
+    "title" : "Workload Pie Chart"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.ext.charting:firstresponse-gadget/com/atlassian/jira/ext/charting/gadget/firstresponse-gadget.xml",
+    "title" : "Time to First Response"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.pyxis.greenhopper.jira:greenhopper-gadget-sprint-burndown/gadgets/greenhopper-sprint-burndown.xml",
+    "title" : "Sprint Burndown Gadget"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.pyxis.greenhopper.jira:greenhopper-gadget-sprint-days-remaining/gadgets/greenhopper-sprint-days-remaining.xml",
+    "title" : "Days Remaining in Sprint Gadget"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.pyxis.greenhopper.jira:greenhopper-gadget-sprint-health/gadgets/greenhopper-sprint-health.xml",
+    "title" : "Sprint Health Gadget"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.atlassian-wallboard-plugin:spacer-gadget/gadgets/spacerGadget.xml",
+    "title" : "Wallboard Spacer Gadget"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.jira.ext.calendar:issuescalendar-gadget/templates/plugins/jira/portlets/calendar/gadget/calendar-gadget.xml",
+    "title" : "Jira Issues Calendar"
+  }, {
+    "uri" : "rest/gadgets/1.0/g/com.atlassian.streams.streams-jira-plugin:activitystream-gadget/gadgets/activitystream-gadget.xml",
+    "title" : "Activity Stream"
+  }, {
+    "moduleKey" : "com.atlassian.jira.gadgets:introduction-dashboard-item",
+    "title" : "Introduction"
+  }, {
+    "moduleKey" : "com.atlassian.jira.gadgets:bubble-chart-dashboard-item",
+    "title" : "Bubble Chart"
+  } ]
+}
